@@ -7,9 +7,9 @@ int main() {
 	double D, x1, x2, eps = 10e-9;
 	cin >> a >> b >> c;
 	D = b*b - 4*a*c;
-	if (D < 0) {
-		cout << "Íåò îòâåòà";
-	} else if (D > 0 - eps && d < 0 + eps) {
+	if (D < 0 - eps) {
+		cout << "ÐÐµÑ‚ Ð¾Ñ‚Ð²ÐµÑ‚Ð°";
+	} else if (D > 0 - eps && D < 0 + eps) {
 		x1 = -b/(2*a);
 		cout << x1 << endl << x1 << endl;
 	} else {
